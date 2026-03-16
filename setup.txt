@@ -4,3 +4,6 @@ Ssh-keygen -t ED25519
 
 Copy your public key and into gitup
 Profile | setting | ssh and gpg key | ssh key | add | name: dev-sshkey | and paste the public key | Add
+
+To create a personal access token from github to be able to access you private  repository  in github
+Git | Profile | setting | Developer Settings | Personal Access Token | Token classic  | generate new Token | Personal Access Token | Token classic  | |Select Exipirate date | generate new Token (classic) | select Repo | Generate Token.| Copy the token and save it some where for future reference
