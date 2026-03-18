@@ -1,6 +1,6 @@
 Configure ssh to clone git repository on your computer
 Create key pairs 
-Ssh-keygen -t ED25519
+ssh-keygen -t ED25519
 
 Copy your public key into gitup
 Profile | setting | ssh and gpg key | ssh key | add | name: dev-sshkey | and paste the public key | Add
