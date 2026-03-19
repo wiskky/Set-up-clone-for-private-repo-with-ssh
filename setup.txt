@@ -7,3 +7,8 @@ Profile | setting | ssh and gpg key | ssh key | add | name: dev-sshkey | and pas
 
 To create a personal access token from github to be able to access you private  repository  in github
 Git | Profile | setting | Developer Settings | Personal Access Token | Token classic  | generate new Token | Personal Access Token | Token classic  | |Select Exipirate date | generate new Token (classic) | select Repo | Generate Token.| Copy the token and save it some where for future reference
+
+Create a user access and secret key
+On aws, click user | security credential | create access key | copy the access key id and Secret Access key and keep it safe
+
+Then configure aws on your system by using 'aws configure'supply access key and secret key generated above  and follow other steps and create.
